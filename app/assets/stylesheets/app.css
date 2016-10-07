@@ -1,0 +1,44 @@
+body {
+  background: #f1f1f1;
+}
+
+#top-nav {
+  position: fixed;
+  background: #FFC98A;
+  height: 50px;
+  width: 100%;
+  min-width: 768px;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  text-align: center;
+  z-index: 2;
+}
+
+#brand {
+  text-align: center;
+  line-height: 50px;
+  /*font-family: 'Lobster', cursive;*/
+  font-size: 24px;
+  color: #fff;
+  display: inline-block;;
+}
+
+#search {
+  position: absolute;
+  height: 24px;
+  top: 7px;
+  right: 10px;
+  width: 200px;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 36px;
+  font-size: 14px;
+  outline: none;
+}
+
+.fa-search {
+  position: absolute;
+  top: 15px;
+  right: 24px;
+}
