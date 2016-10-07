@@ -10,17 +10,8 @@
   </head>
 
   <body>
-    <header id="top-nav">
-      <div id="brand">Mackoverflow</div>
-      <nav>
-        <ul>
-          <li></li>
-          <li></li>
-        </ul>
-      </nav>
-      <%= react_component 'SearchBoxView'%>
-      <i className="fa fa-search"></i>
-    </header>
+    <%= react_component 'NavBarView', currentUser: current_user %>
+      <!-- <div id="brand">Mackoverflow</div> -->
     <%= yield %>
   </body>
 </html>

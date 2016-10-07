@@ -1,7 +1,6 @@
 class SearchBoxView extends React.Component {
   render() {
     const { onSearchChange, searchInput } = this.props;
-
     return(
       <form id="search-form" >
         <input
@@ -11,6 +10,7 @@ class SearchBoxView extends React.Component {
           value={searchInput}
           onChange={onSearchChange}
         ></input>
+        <i className="fa fa-search"></i>
       </form>
     );
   }
